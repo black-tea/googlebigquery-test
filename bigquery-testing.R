@@ -4,7 +4,6 @@ library(bigrquery)
 library(DBI)
 library(httr)
 library(dplyr)
-library(strptime)
 
 # Google BigQuery Settings: token, billing, project, data
 set_service_token(here('nextbus-la-159f7085d190.json'))
